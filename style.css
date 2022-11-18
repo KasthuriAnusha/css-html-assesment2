@@ -1,0 +1,231 @@
+body{
+    background-color: black;
+}
+.main{
+    display: grid;
+    margin: 5px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 15px;
+    padding: 10px;
+    
+}
+.one1{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;   
+}
+.one1:hover{
+    transform: rotate(-45deg);
+    background-color: #1CDD0F;
+    transition-duration:2ms;
+}
+.one2{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+   
+}
+   
+.one2:hover{
+    transition-duration:2ms;
+    
+    background-color: #1CDD0F;
+    transform: rotate(270deg);
+}
+
+
+.one3{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+
+}
+.one3:hover{
+    transform: rotate(-275deg);
+    background-color: #1CDD0F;
+    
+}
+.one4{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+}
+.one4:hover{
+   transform: skewX(60deg);
+    background-color: #1CDD0F;
+    transition-duration: 2ms;
+    
+}
+.one5{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+}
+.one5:hover{
+    transform: skewX(-60deg);
+     background-color: #1CDD0F;
+     transition-duration: 2ms;
+     
+ }
+.one6{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+}
+.one6:hover{
+    transform: skewy(60deg);
+    background-color: #1CDD0F;
+}
+.one7{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+}
+.one7:hover{
+    transform: skewy(-60deg);
+    background-color: #1CDD0F;
+}
+.one8{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+}
+.one8:hover{
+    background-color: #1CDD0F;
+    box-shadow: 10px 5px 5px;
+    
+}
+.one9{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+}
+.one9:hover{
+    background-color: #1CDD0F;
+    
+}
+.one10{
+    background-color: #DD7F0F;
+    padding: 20px;
+    text-align: center;
+    color:aliceblue;
+    
+}
+.one10:hover{
+    background-color: #1CDD0F;
+    box-shadow: 10px 10px 20px 20px;
+    
+}
+@media screen and (min-width:380px) and (max-width:600px){
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+    .one1{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;   
+    }
+    .one1:hover{
+        transform: rotate(-45deg);
+        background-color: #1CDD0F;
+        transition-duration:2ms;
+    }
+    .one2{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+       
+    }
+       
+    .one2:hover{
+        transition-duration:2ms;
+        
+        background-color: orangered;
+        transform: rotate(45deg);
+    }
+    
+    
+    .one3{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        flex-direction: column;
+    
+    }
+    
+    .one4{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        flex-direction: column
+    }
+   
+    .one5{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        flex-direction:column;
+    }
+    
+    .one6{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        flex-direction: column;
+    }
+    
+    .one7{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        flex-direction: column;
+    }
+    
+    .one8{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        flex-direction: column;
+    }
+   
+    .one9{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        flex-direction: column;
+    }
+    
+    .one10{
+        background-color: #DD7F0F;
+        padding: 20px;
+        text-align: center;
+        color:aliceblue;
+        
+    }
+    .one10:hover{
+        background-color: #1CDD0F;
+        box-shadow: 10px 10px 20px 20px;
+        transform: rotate(275px);
+        
+    }
+}
